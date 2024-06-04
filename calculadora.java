@@ -5,8 +5,10 @@ public class calculadora {
         double soma = num1 + num2;
 	double subtracao = num1 - num2;
 	double multiplicar = num1 * num2;
+	double dividir = num1 / num2;
         System.out.println("A soma de " +num1+ " + " +num2+ " é igual a "+soma);
 	System.out.println("A subtracao de " +num1+ " - " +num2+ "e igual a "+subtracao);
 	System.out.println("A multiplicacao de " +num1+ " * " +num2+ "e igual a "+multiplicar);
+	System.out.println("A divisao de " +num1+ " / " +num2+  " e igual a "+dividir);
 }
 }
