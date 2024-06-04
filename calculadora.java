@@ -4,7 +4,9 @@ public class calculadora {
         double num2 = 5;
         double soma = num1 + num2;
 	double subtracao = num1 - num2;
+	double multiplicar = num1 * num2;
         System.out.println("A soma de " +num1+ " + " +num2+ " é igual a "+soma);
-	System.out.println("A subtracao de " +num1+ " - " +num2+ "e igual a "+subtracao);	
+	System.out.println("A subtracao de " +num1+ " - " +num2+ "e igual a "+subtracao);
+	System.out.println("A multiplicacao de " +num1+ " * " +num2+ "e igual a "+multiplicar);
 }
 }
